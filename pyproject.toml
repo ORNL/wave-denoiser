@@ -1,0 +1,41 @@
+[build-system]
+requires = [
+    "setuptools>=60",
+    "setuptools-scm[toml]>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wavedenoiser"
+version = "0.1.4"
+license = "GPL-3.0-or-later"
+authors = [
+  { name="Chengping Chai, Derek Rose, Scott Stewart, Nathan Martindale, Mark Adams, Lisa Linville, Christopher Stanley, Anibely Torres Polanco and Philip Bingham", email="chaic@ornl.gov" },
+]
+description = "WaveDenoiser is a large deep learning model to reduce background noise from seismic signals."
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering",
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  "torch==2.7.0",
+  "numpy>=1.26.4",
+  "lightning>=2.2.4",
+  "h5py>=3.11.0",
+  "matplotlib>=3.8.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"wavedenoiser.model" = ["*.ckpt"]
+
+[project.optional-dependencies]
+development = ["flake8", "black", "pre-commit"]
+
+[project.urls]
+Homepage = "https://github.com/ornl/wave-denoiser"
