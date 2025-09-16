@@ -1,6 +1,6 @@
 # WaveDenoiser
 
-A large deep learning model to reduce background noise from seismic signals in the time domain. The model was developed by Chengping Chai, Derek Rose, Scott Stewart, Nathan Martindale, Mark Adams, Lisa Linville, Christopher Stanley, Anibely Torres Polanco and Philip Bingham.
+A large deep learning model to reduce background noise from seismic signals in the time domain. The model was developed by Chengping Chai, Derek Rose, Scott Stewart, Nathan Martindale, Mark Adams, Anibely Torres Polanco, Lisa Linville, Christopher Stanley, and Philip Bingham.
 
 ## Introduction
 

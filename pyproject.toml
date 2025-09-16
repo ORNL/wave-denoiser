@@ -6,10 +6,10 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "wavedenoiser"
-version = "0.1.4"
+version = "0.2.0"
 license = "GPL-3.0-or-later"
 authors = [
-  { name="Chengping Chai, Derek Rose, Scott Stewart, Nathan Martindale, Mark Adams, Lisa Linville, Christopher Stanley, Anibely Torres Polanco and Philip Bingham", email="chaic@ornl.gov" },
+  { name="Chengping Chai, Derek Rose, Scott Stewart, Nathan Martindale, Mark Adams, Anibely Torres Polanco, Lisa Linville, Christopher Stanley, and Philip Bingham", email="chaic@ornl.gov" },
 ]
 description = "WaveDenoiser is a large deep learning model to reduce background noise from seismic signals."
 readme = "README.md"
