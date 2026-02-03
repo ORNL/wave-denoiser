@@ -64,7 +64,7 @@ range of 10–110 km and a magnitude range of 0–4.5 because of biases in the t
 
 ## Reference
 
-TBD
+Chengping Chai, Derek Rose, Scott Stewart, Nathan Martindale, Mark Adams, Anibely Torres Polanco, Lisa Linville, Christopher Stanley, and Philip Bingham (2026), Denoising Seismograms in the Time Domain Using a Deep Learning Model, Bulletin of the Seismological Society of America, 116(1), 192-204. https://doi.org/10.1785/0120250143 
 
 ## License
 
